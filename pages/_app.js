@@ -11,7 +11,7 @@ import CssBaseline from '@material-ui/core/CssBaseline'
 
 import theme from '../components/theme'
 
-const makeMovieBrowseStore = configureStore(true, true)
+const makeMovieBrowseStore = configureStore(false, true)
 
 function MyApp (props) {
   const { Component, pageProps, store } = props
